@@ -60,7 +60,7 @@ body h1 {
 }
 
 .clock .second {
-    width: 25%;
+    /* width: 25%; */
     height: 80%;
     /* background-color: rosybrown; */
     /* border: 2px solid pink; */
@@ -69,6 +69,7 @@ body h1 {
     align-items: center;
     font-size: 6rem;
     letter-spacing: .5rem;
+    margin-left: 1rem;
 }
 
 .clock .seperator {
@@ -101,4 +102,19 @@ body h1 {
     left: 50%;
     transform: translateX(-50%);
     bottom: 22%;
+}
+
+.meridian {
+    /* width: 25%; */
+    height: 80%;
+    /* background-color: rosybrown; */
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    /* position: absolute;
+    bottom: 3.5rem;
+    right: 1.5rem; */
 }
